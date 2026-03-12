@@ -1,11 +1,11 @@
-// M Claw Branding Configuration
-// This file is for future rebrand to M Claw
+// MClaw Branding Configuration
+// This file is for MClaw branding
 // To use: Replace domeclaw_branding.go with this file content
 
 package config
 
 const (
-	// MVPClawBanner is the ASCII art banner for M Claw
+	// MVPClawBanner is the ASCII art banner for MClaw
 	MVPClawBanner = `
 ███╗   ███╗    ██████╗██╗      █████╗ ██╗    ██╗
 ████╗ ████║   ██╔════╝██║     ██╔══██╗██║    ██║
@@ -16,16 +16,16 @@ const (
 `
 
 	// MVPClawAppNameDisplay is the display name for the application
-	MVPClawAppNameDisplay = "M Claw"
+	MVPClawAppNameDisplay = "MClaw"
 
 	// MVPClawAppShortDescription is the short description shown in CLI
-	MVPClawAppShortDescription = "M Claw - Personal AI Assistant with Wallet & Webhook"
+	MVPClawAppShortDescription = "MClaw - Personal AI Assistant with Wallet & Webhook"
 
 	// MVPClawAppLongDescription is the detailed description
-	MVPClawAppLongDescription = "M Claw is a fork of PicoClaw with Ethereum wallet integration and webhook channel support."
+	MVPClawAppLongDescription = "MClaw is a lightweight personal AI assistant with Ethereum wallet integration and webhook channel support."
 )
 
-// GetBanner returns the M Claw banner with colors
+// GetBanner returns the MClaw banner with colors
 func MVPClawGetBanner() string {
 	return MVPClawBanner
 }
