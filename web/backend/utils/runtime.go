@@ -30,9 +30,9 @@ func GetDefaultConfigPath() string {
 //  2. Same directory as the current executable
 //  3. Falls back to "picoclaw" and relies on $PATH
 func FindPicoclawBinary() string {
-	binaryName := "picoclaw"
+	binaryName := "mclaw"
 	if runtime.GOOS == "windows" {
-		binaryName = "picoclaw.exe"
+		binaryName = "mclaw.exe"
 	}
 
 	if p := os.Getenv("PICOCLAW_BINARY"); p != "" {
@@ -48,7 +48,7 @@ func FindPicoclawBinary() string {
 		}
 	}
 
-	return "picoclaw"
+	return "mclaw"
 }
 
 // GetLocalIP returns the local IP address of the machine.
