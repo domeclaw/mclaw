@@ -218,6 +218,14 @@ func DefaultConfig() *Config {
 			// Add your API key to the model you want to use
 			// ============================================
 
+			// Byteplus Ark Code - https://ark.ap-southeast.bytepluses.com/api/coding/v3
+			{
+				ModelName: "byteplus-code-plan",
+				Model:     "ark-code-latest",
+				APIBase:   "https://ark.ap-southeast.bytepluses.com/api/coding/v3",
+				APIKey:    "placeholder-key",
+			},
+
 			// Zhipu AI (智谱) - https://open.bigmodel.cn/usercenter/apikeys
 			{
 				ModelName: "glm-4.7",
