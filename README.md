@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo.jpg" alt="MClaw" width="512">
+  <img src="assets/mclaw-logo.png" alt="MClaw" width="512">
 
   <h1>MClaw: Ultra-Efficient AI Assistant in Go</h1>
 
